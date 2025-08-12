@@ -1,4 +1,4 @@
-version: "1.0"
+version: "3.9"
 services:
   vsserver:
     image: vintage_story_server:any
@@ -11,3 +11,4 @@ services:
     environment:
       - VS_VERSION=1.20.12
     restart: unless-stopped
+
