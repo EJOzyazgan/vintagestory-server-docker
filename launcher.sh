@@ -13,7 +13,7 @@ cleanup() {
 download_server() {
     #Downlaod the server archive for the indicated version
     #VS_VERSION is an environment variable provided to the container. 
-    #  By default dockerfile sets this to 1.20.0
+    #  By default dockerfile sets this to 1.20.12
 	pwd
 	ls -al ..
     wget https://cdn.vintagestory.at/gamefiles/stable/vs_server_linux-x64_${VS_VERSION}.tar.gz
